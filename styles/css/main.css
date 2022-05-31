@@ -258,3 +258,7 @@
 .change-text-align{
     text-align: unset;
 }
+
+.hide{
+    display: none;
+}
