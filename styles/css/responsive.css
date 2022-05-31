@@ -1,11 +1,17 @@
-@media (max-width: 1024px) {
+/* PC */
+@media (max-width: 1023px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
     .content{
         display: block;
         background: #fff;
 
     }
     .content-info, .content-product{
-        margin: 0 20px;
+        margin: 40px 20px;
         padding: 50px 12px;
     }
 
@@ -72,11 +78,97 @@
     }
 
     .detail-product2{
-        margin-left: 13px;
+        text-align:center;
     }
 
     .hinh_tron{
         margin-right: 20px;
     }
+
+    .change-size{
+        font-size: 30px;
+    }
+
+    .change-padding{
+        padding-left: 15px;
+        text-align: unset;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 739px){
+    .content{
+        display: block;
+        background: #fff;
+    }
+
+    .content-info, .content-product{
+        margin: 0 20px;
+        padding: 50px 12px;
+    }
+
+    .input-product{
+        justify-content: flex-end;
+        border: none;
+        width: auto;
+        overflow:unset;
+    }
+
+    .search-product p{
+        margin: 0;
+    }
+    
+    .input-product input, .content-messeenger, .list-product1{
+        display: none;
+    }
+
+    .list-product2{
+        display: inline;
+    }
+
+    .title-product{
+        display: none !important;
+    }
+
+    .img-product2{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .img-product2 img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .detail-product2{
+        text-align: center;
+    }
+
+    .change-color-price{
+        font-size: 18px;
+    }
+    .line-through{
+        display: inherit;
+        font-size: 18px;
+    }
+
+    .pagination{
+        justify-content:center;
+    }
+
+    .number-product{
+        padding: 0;
+        width: unset;
+    }
+
+    .span-product {
+        margin: 0;
+        text-align:center;
+    }
+
 
 }
