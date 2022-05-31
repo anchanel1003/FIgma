@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600&family=Roboto:wght@300;400;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background: #E5E5E5;
+    width: 100%;
+}
+
+.content-info{  
+    margin: 50px 0 50px 100px;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+
+}
+
+.info-personal {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 30px ;
+}
+
+.info-name{
+    padding-top: 24px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+   
+}
+
+.info-phone{
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.order-overview p:first-child{
+    margin: 50px 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+
+}
+
+.order-item{
+    display: flex;
+    margin: 20px 30px;
+    align-items: center;
+}
+
+.order-item p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-left: 16px;
+}
+
+.content-product{
+    margin: 50px 0 50px 30px;
+    padding: 63px 30px 0 30px;
+    background: #fff;
+    overflow: hidden;
+    
+}
+
+.amount-product{
+    display: flex;
+    
+}
+
+.number-product{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 13px 24px;
+    width:  384px;
+}
+
+.number1{
+    background: rgba(129, 200, 194, 0.46);
+    margin-right: 20px;
+
+}
+
+.span-product{
+    margin-left: 16px;
+}
+
+.span-product span:first-child{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.span-product span:last-child{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.search-product{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-product p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.input-product{
+    width: 332px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-product input{
+    width: 285px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+
+
+}
+
+.input-product i{
+    padding-right: 15px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.title-product{
+    width: 788px;
+    margin-top: 52px;
+    padding-bottom: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+.list-product1{
+    margin-top: 24px;
+    width: 100%;
+}
+
+.list-product2{
+    display: none;
+}
+.item-product{
+    display: flex;
+    align-items: center;
+
+}
+
+.img-product{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.detail-product{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.change-color-price{
+    color: #FF594F;
+}
+
+.hinh_tron{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #FFCCCC;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.line-through{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.35);
+    line-height: 17px;
+    text-decoration: line-through;
+}
+
+.content-messeenger{
+    font-size: 50px;
+    margin: 16px 0 0 20px;
+    
+}
+
+.content-messeenger i{
+    color: #81C8C2;
+    cursor: pointer;
+}
+
+.pagination{
+    margin: 35px 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item{
+    margin-right: 5px;
+}
+
+.pagination-item__link{
+    border: 1px solid rgba(200, 200, 200, 0.6);
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.pagination1{
+    background: #81C8C2;
+    color: #fff;
+}
+
+.pagination3{
+   border: none;
+}

@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+    .content{
+        display: block;
+        background: #fff;
+
+    }
+    .content-info, .content-product{
+        margin: 0 20px;
+        padding: 50px 12px;
+    }
+
+    .order-item{
+        justify-content: center;
+    }
+
+    .change-order2{
+        padding-right: 20px;
+    }
+
+    .change-order1{
+        padding-right: 5px;
+    }
+
+    .change-order3{
+        padding-right: 17px;
+    }
+
+    .amount-product{
+        justify-content: space-between;
+    }
+
+    .input-product{
+        justify-content: flex-end;
+        border: none;
+    }
+    
+    .input-product input, .content-messeenger, .list-product1{
+        display: none;
+    }
+
+    .input-product i{
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .title-product{
+        display: none !important;
+    }
+
+    .pagination-item__link{
+        padding: 12px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        
+    }
+
+    .list-product2{
+        display: inline;
+    }
+
+    .item2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+
+    .img-product2{
+        display: flex;
+    }
+
+    .detail-product2{
+        margin-left: 13px;
+    }
+
+    .hinh_tron{
+        margin-right: 20px;
+    }
+
+}
